@@ -14,7 +14,7 @@ class KlasaController extends AbstractController
     public function index(): Response
     {
         return $this->render('klasa/index.html.twig', [
-            'controller_name' => 'KlasaController', zenitsu
+            'controller_name' => 'KlasaController',
         ]);
     }
 }
